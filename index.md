@@ -15,7 +15,8 @@ Hybit is an offline-first habit tracker for Android. This policy explains what i
 
 - Your habits, check-ins and settings stay **on your device**. We do not run a server and we do not collect, upload or sell your habit data.
 - We do not require an account, and we do not ask for your name, email, location, contacts, camera, microphone or files.
-- The app shows ads through **Google AdMob**. Google may collect certain device and usage information to serve ads (see section 4).
+- The app shows ads through **Google AdMob**. The Google Mobile Ads SDK inside the app collects and shares certain device identifiers and usage data with Google to serve ads (see section 4). This is the only data the app collects or shares.
+- We do not sell your personal data.
 
 ## 2. Information stored on your device
 
@@ -31,7 +32,18 @@ This data is never sent to us or to any third party by the app. It is removed wh
 
 ## 3. Information we do not collect
 
-We do not collect personal information, precise or approximate location, contacts, photos, files, audio, health data, or financial information. We have no analytics or crash-reporting service that sends your data to us.
+Other than the advertising data described in section 4, the app does not collect personal information, precise location, contacts, photos, files, audio, health data, or financial information. We have no analytics or crash-reporting service, and no data is sent to servers operated by us.
+
+## 3a. Data summary
+
+| Data | Collected | Shared | Purpose |
+|---|---|---|---|
+| Habits, check-ins, settings | Stored on device only | No | App functionality |
+| Advertising ID | Yes, by Google AdMob SDK | Yes, with Google | Advertising, fraud prevention |
+| IP address, device and app info, ad interactions, diagnostics | Yes, by Google AdMob SDK | Yes, with Google | Advertising, analytics, fraud prevention |
+| Name, email, phone, address, location, contacts, photos, files, health, financial data | No | No | n/a |
+
+Data sent to Google is transmitted over the internet using encryption (HTTPS) where supported by the SDK.
 
 ## 4. Advertising (Google AdMob)
 
@@ -44,7 +56,7 @@ When ads are shown, Google and its partners may collect and process, for example
 - Device and app information (model, OS version, app version, language)
 - Ad interaction and diagnostic data
 
-Google uses this information to deliver, measure and personalize ads and to prevent fraud. We do not receive this data and do not control Google's use of it. See:
+Google uses this information to deliver, measure and personalize ads and to prevent fraud. The developer does not receive this data and does not control Google's use of it. See:
 
 - Google's Privacy & Terms: https://policies.google.com/privacy
 - How Google uses data from apps that use its services: https://policies.google.com/technologies/partner-sites
@@ -81,6 +93,10 @@ Depending on where you live (for example under the GDPR or CCPA), you may have r
 
 We may update this policy from time to time. The latest version, with its effective date, will always be available at the link on the app's store listing. Material changes will be reflected by updating the effective date above.
 
-## 11. Contact
+## 11. Legal bases (EEA / UK)
+
+Where the GDPR or UK GDPR applies, advertising data is processed based on your **consent**, collected through the consent form shown in the app. You can withdraw consent at any time in **Settings → Privacy options**.
+
+## 12. Contact
 
 Questions about this policy: **cahyarobbir@gmail.com**
